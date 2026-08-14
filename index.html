@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Join CreatiVets at TPAC on November 9, 2026, for an evening of original stories created by veterans."
+      content="Scars to Scripts by CreatiVets — a night honoring veterans' courage through original stories performed live at TPAC."
     />
     <title>Scars to Scripts | CreatiVets</title>
     <link rel="stylesheet" href="styles.css" />
@@ -21,9 +21,12 @@
       </div>
 
       <header class="site-header">
-        <a class="wordmark" href="#top" aria-label="Scars to Scripts home">
-          <span>Scars</span><small>to</small><span>Scripts</span>
-          <em>by CreatiVets</em>
+        <a class="site-logo-link" href="#top" aria-label="Scars to Scripts home">
+          <img
+            class="site-logo"
+            src="IMG/scars-to-scripts-logo.png"
+            alt="Scars to Scripts by CreatiVets"
+          />
         </a>
 
         <nav class="desktop-nav" aria-label="Primary navigation">
@@ -38,7 +41,9 @@
           href="https://cart.tpac.org/15452"
           target="_blank"
           rel="noreferrer"
-        >Buy Tickets <span aria-hidden="true">↗</span></a>
+        >
+          Buy Tickets <span aria-hidden="true">↗</span>
+        </a>
 
         <details class="mobile-menu">
           <summary>Menu</summary>
@@ -55,22 +60,27 @@
       </header>
 
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-stars" aria-hidden="true"></div>
-        <div class="script-line script-one" aria-hidden="true">
-          every story deserves to be heard
-        </div>
         <div class="hero-content" id="main-content">
           <div class="hero-copy">
-            <p class="eyebrow">CreatiVets presents</p>
-            <h1 id="hero-title">
-              <span>Scars</span><small>to</small><span>Scripts</span>
-            </h1>
+            <div class="hero-brand">
+              <p class="eyebrow">CreatiVets presents</p>
+              <h1 class="sr-only" id="hero-title">Scars to Scripts</h1>
+              <img
+                class="hero-logo"
+                src="IMG/scars-to-scripts-logo.png"
+                alt=""
+                aria-hidden="true"
+              />
+            </div>
+
             <div class="star-divider" aria-hidden="true">
               <i></i><span>★</span><span>★</span><span>★</span><i></i>
             </div>
+
             <p class="hero-kicker">
               A night to honor veterans’ courage to tell their stories.
             </p>
+
             <div class="hero-date">
               <time datetime="2026-11-09T19:00:00-06:00">
                 <strong>November 9, 2026</strong>
@@ -78,11 +88,17 @@
               </time>
               <span class="hero-location">TPAC · Nashville, Tennessee</span>
             </div>
+
             <div class="hero-actions">
-              <a class="button button-gold" href="https://cart.tpac.org/15452" target="_blank" rel="noreferrer">
+              <a
+                class="button button-gold"
+                href="https://cart.tpac.org/15452"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Reserve Your Seats <span aria-hidden="true">↗</span>
               </a>
-              <a class="text-link" href="#about">
+              <a class="button button-outline" href="#about">
                 Discover the story <span aria-hidden="true">↓</span>
               </a>
             </div>
@@ -91,7 +107,7 @@
           <figure class="hero-art">
             <div class="poster-frame">
               <img
-                src="campaign-poster.png"
+                src="IMG/campaign-poster.png"
                 alt="Scars to Scripts campaign poster featuring a veteran storyteller on a blue-lit theater stage"
               />
             </div>
@@ -100,8 +116,10 @@
         </div>
 
         <div class="hero-footer" aria-label="Campaign themes">
-          <span>Stories Written</span><b aria-hidden="true">★</b>
-          <span>Lives Changed</span><b aria-hidden="true">★</b>
+          <span>Stories Written</span>
+          <b aria-hidden="true">★</b>
+          <span>Lives Changed</span>
+          <b aria-hidden="true">★</b>
           <span>Communities United</span>
         </div>
       </section>
@@ -112,7 +130,9 @@
             <p class="section-number">01 · When</p>
             <h2>One unforgettable evening.</h2>
             <div class="date-lockup">
-              <span>November</span><strong>09</strong><span>2026</span>
+              <span>November</span>
+              <strong>09</strong>
+              <span>2026</span>
             </div>
             <dl class="event-details">
               <div><dt>Doors open</dt><dd>6:00 PM</dd></div>
@@ -125,7 +145,8 @@
             <p class="section-number">02 · Where</p>
             <h2>Tennessee Performing Arts Center</h2>
             <address>
-              505 Deaderick Street<br />Nashville, Tennessee 37243
+              505 Deaderick Street<br />
+              Nashville, Tennessee 37243
             </address>
             <p class="venue-note">
               Located in downtown Nashville. Review parking, accessibility,
@@ -137,25 +158,33 @@
                 href="https://www.tpac.org/plan-your-visit/parking-directions"
                 target="_blank"
                 rel="noreferrer"
-              >TPAC Directions <span aria-hidden="true">↗</span></a>
+              >
+                TPAC Directions <span aria-hidden="true">↗</span>
+              </a>
               <a
-                class="text-link light"
-                href="https://www.google.com/maps/dir/?api=1&destination=505+Deaderick+Street+Nashville+TN+37243"
+                class="button button-map"
+                href="https://www.google.com/maps/dir/?api=1&amp;destination=505+Deaderick+Street+Nashville+TN+37243"
                 target="_blank"
                 rel="noreferrer"
-              >Open in Maps <span aria-hidden="true">↗</span></a>
+              >
+                Open in Maps <span aria-hidden="true">↗</span>
+              </a>
             </div>
           </article>
 
           <aside class="ticket-card">
             <p class="section-number">03 · Tickets</p>
-            <span class="ticket-star" aria-hidden="true">★</span>
             <h2>Your seat becomes part of their story.</h2>
             <p>
               Every ticket supports CreatiVets programs and helps more veterans
               find their voice through creative expression.
             </p>
-            <a class="button button-dark" href="https://cart.tpac.org/15452" target="_blank" rel="noreferrer">
+            <a
+              class="button button-dark"
+              href="https://cart.tpac.org/15452"
+              target="_blank"
+              rel="noreferrer"
+            >
               Buy Tickets at TPAC <span aria-hidden="true">↗</span>
             </a>
           </aside>
@@ -166,9 +195,11 @@
         <div class="about-heading">
           <p class="eyebrow dark">Where healing finds its voice</p>
           <h2 id="about-title">
-            From lived experience<br /><em>to the stage.</em>
+            From lived experience<br />
+            <em>to the stage.</em>
           </h2>
         </div>
+
         <div class="about-copy">
           <p class="lead">
             Scars to Scripts transforms veterans’ experiences into original
@@ -186,16 +217,26 @@
             Audiences witness courage, resilience, and the transformative power
             of art while helping future veterans take part in the program.
           </p>
-          <a class="text-link dark" href="https://creativets.org/about/" target="_blank" rel="noreferrer">
+          <a
+            class="text-link dark"
+            href="https://creativets.org/about/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Learn about CreatiVets <span aria-hidden="true">↗</span>
           </a>
         </div>
+
         <blockquote>
-          <span aria-hidden="true">“</span>
-          <p>
-            Healing begins when a story is shared—and continues when someone
-            chooses to listen.
-          </p>
+          <span class="quote-open" aria-hidden="true">“</span>
+          <div class="quote-copy">
+            <p>
+              Healing begins when a story is shared—and continues when someone
+              chooses to listen.
+            </p>
+            <cite>— Scars to Scripts campaign</cite>
+          </div>
+          <span class="quote-close" aria-hidden="true">”</span>
         </blockquote>
       </section>
 
@@ -207,8 +248,9 @@
           </div>
           <p>
             Each writer brings a distinct voice, creative practice, and lived
-            experience to the stage. Together, their work creates space for
-            understanding and connection.
+            experience to the stage.<br class="writer-break" />
+            <span class="keep-together">Together, their work</span>
+            creates space for understanding and connection.
           </p>
         </div>
 
@@ -217,10 +259,18 @@
             <div class="story-number" aria-hidden="true">01</div>
             <div class="portrait-card" aria-hidden="true"><span>SN</span><i>★</i></div>
             <div class="story-details">
-              <p class="branch">Army Veteran</p><h3>Sam Negus</h3>
+              <p class="branch">Army Veteran</p>
+              <h3>Sam Negus</h3>
               <p class="service">Mortuary Affairs</p>
-              <p>Sam brings his military experience into a creative process built around reflection, connection, and the courage to share what is often difficult to put into words.</p>
-              <div class="art-form"><span>Creative practice</span><strong>Songwriting · Art Guitar</strong></div>
+              <p>
+                Sam brings his military experience into a creative process built
+                around reflection, connection, and the courage to share what is
+                often difficult to put into words.
+              </p>
+              <div class="art-form">
+                <span>Creative practice</span>
+                <strong>Songwriting · Art Guitar</strong>
+              </div>
             </div>
           </article>
 
@@ -228,10 +278,18 @@
             <div class="story-number" aria-hidden="true">02</div>
             <div class="portrait-card" aria-hidden="true"><span>TM</span><i>★</i></div>
             <div class="story-details">
-              <p class="branch">Navy Veteran</p><h3>Tim Murphy</h3>
+              <p class="branch">Navy Veteran</p>
+              <h3>Tim Murphy</h3>
               <p class="service">Special Warfare Communications Technician</p>
-              <p>Through screenwriting, Tim transforms lived experience into a story that can be witnessed, understood, and carried forward by an audience.</p>
-              <div class="art-form"><span>Creative practice</span><strong>Screenwriting</strong></div>
+              <p>
+                Through screenwriting, Tim transforms lived experience into a
+                story that can be witnessed, understood, and carried forward by
+                an audience.
+              </p>
+              <div class="art-form">
+                <span>Creative practice</span>
+                <strong>Screenwriting</strong>
+              </div>
             </div>
           </article>
 
@@ -239,10 +297,18 @@
             <div class="story-number" aria-hidden="true">03</div>
             <div class="portrait-card" aria-hidden="true"><span>KM</span><i>★</i></div>
             <div class="story-details">
-              <p class="branch">Marine Corps Veteran</p><h3>Kyle Moser</h3>
+              <p class="branch">Marine Corps Veteran</p>
+              <h3>Kyle Moser</h3>
               <p class="service">Infantry · Service Dog: Ruger</p>
-              <p>Kyle works across music and visual art, using each medium as another way to communicate, create meaning, and build connection beyond service.</p>
-              <div class="art-form"><span>Creative practice</span><strong>Songwriting · Art Guitar · Ceramics</strong></div>
+              <p>
+                Kyle works across music and visual art, using each medium as
+                another way to communicate, create meaning, and build connection
+                beyond service.
+              </p>
+              <div class="art-form">
+                <span>Creative practice</span>
+                <strong>Songwriting · Art Guitar · Ceramics</strong>
+              </div>
             </div>
           </article>
 
@@ -250,10 +316,18 @@
             <div class="story-number" aria-hidden="true">04</div>
             <div class="portrait-card" aria-hidden="true"><span>SM</span><i>★</i></div>
             <div class="story-details">
-              <p class="branch">Army Veteran</p><h3>Stuart Mayo</h3>
+              <p class="branch">Army Veteran</p>
+              <h3>Stuart Mayo</h3>
               <p class="service">Infantry</p>
-              <p>Stuart’s creative practice moves between music and three-dimensional art, turning memory into something tangible, shareable, and newly understood.</p>
-              <div class="art-form"><span>Creative practice</span><strong>Songwriting · 3D Collage · Art Guitar</strong></div>
+              <p>
+                Stuart’s creative practice moves between music and
+                three-dimensional art, turning memory into something tangible,
+                shareable, and newly understood.
+              </p>
+              <div class="art-form">
+                <span>Creative practice</span>
+                <strong>Songwriting · 3D Collage · Art Guitar</strong>
+              </div>
             </div>
           </article>
 
@@ -261,10 +335,18 @@
             <div class="story-number" aria-hidden="true">05</div>
             <div class="portrait-card" aria-hidden="true"><span>SB</span><i>★</i></div>
             <div class="story-details">
-              <p class="branch">Air Force Veteran</p><h3>Sue Brownell</h3>
+              <p class="branch">Air Force Veteran</p>
+              <h3>Sue Brownell</h3>
               <p class="service">Special Investigations · Service Dog: Brodie</p>
-              <p>As both an artist and program mentor, Sue represents the community at the heart of CreatiVets—veterans supporting one another through expression and understanding.</p>
-              <div class="art-form"><span>Creative practice</span><strong>Songwriting · Ceramics · Program Mentor</strong></div>
+              <p>
+                As both an artist and program mentor, Sue represents the
+                community at the heart of CreatiVets—veterans supporting one
+                another through expression and understanding.
+              </p>
+              <div class="art-form">
+                <span>Creative practice</span>
+                <strong>Songwriting · Ceramics · Program Mentor</strong>
+              </div>
             </div>
           </article>
         </div>
@@ -280,7 +362,12 @@
             programs for veterans across the country.
           </p>
           <div class="impact-actions">
-            <a class="button button-gold" href="https://cart.tpac.org/15452" target="_blank" rel="noreferrer">
+            <a
+              class="button button-gold"
+              href="https://cart.tpac.org/15452"
+              target="_blank"
+              rel="noreferrer"
+            >
               Buy Tickets <span aria-hidden="true">↗</span>
             </a>
             <a
@@ -288,24 +375,34 @@
               href="https://creativets.networkforgood.com/projects/93343-creativets-donation-page"
               target="_blank"
               rel="noreferrer"
-            >Donate to CreatiVets <span aria-hidden="true">↗</span></a>
+            >
+              Donate to CreatiVets <span aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </section>
 
       <footer>
-        <a class="wordmark footer-wordmark" href="#top" aria-label="Back to top">
-          <span>Scars</span><small>to</small><span>Scripts</span>
-          <em>by CreatiVets</em>
+        <a class="footer-logo-link" href="#top" aria-label="Back to top">
+          <img
+            class="footer-logo"
+            src="IMG/scars-to-scripts-logo.png"
+            alt="Scars to Scripts by CreatiVets"
+          />
         </a>
         <div class="footer-info">
           <p>November 9, 2026 · 7:00 PM</p>
           <p>TPAC · Nashville, Tennessee</p>
+          <p>©2026 CreatiVets. All rights reserved.</p>
         </div>
         <div class="footer-links">
           <a href="https://cart.tpac.org/15452" target="_blank" rel="noreferrer">Tickets</a>
           <a href="https://creativets.org/" target="_blank" rel="noreferrer">CreatiVets</a>
-          <a href="https://creativets.networkforgood.com/projects/93343-creativets-donation-page" target="_blank" rel="noreferrer">Donate</a>
+          <a
+            href="https://creativets.networkforgood.com/projects/93343-creativets-donation-page"
+            target="_blank"
+            rel="noreferrer"
+          >Donate</a>
         </div>
       </footer>
     </main>
